@@ -1,0 +1,18 @@
+site_name: My Docs
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Creating New Projects: projects.md
+  - Folder Structure and Composition: folders.md
+  - Design Patterns: patterns.md
+  - React Component Design Pattern: functionalcomponents.md
+  - S.O.L.I.D.: solid.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
