@@ -14,6 +14,7 @@ Adopt a recommended folder structure, following the Micro Frontend design patter
 
 Structure React components using SOLID programming principles, emphasizing Single Responsibility, Open-Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.
 
+
 ### 4. Compartmentalization and Micro Frontend Design:
 
 Embrace the concept of compartmentalization in line with Micro Frontend design. Break down large components into smaller, more manageable subcomponents, enhancing modularity and reusability.
@@ -38,6 +39,10 @@ Prioritize the use of variables passed via props over maintaining state within s
 
 Establish a clear file structure that follows the progression of component layers - Logic layer (handles state and logic), Display layer (manages UI rendering), Component layer (orchestrates structure), and SubComponent layer(s) (handles specific UI elements).
 
+
+### 9. Styling and CSS:
+
+CSS is to be stored at three levels: global, page, and component. Component-level CSS is to be stored in CSS modules to avoid potential conflicts and unintended side effects.
 
 ## Summary
 

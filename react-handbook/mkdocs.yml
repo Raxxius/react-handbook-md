@@ -7,6 +7,7 @@ nav:
   - Creating New Projects: projects.md
   - Folder Structure and Composition: folders.md
   - Design Patterns: patterns.md
+  - Cascading Style Sheets: styling.md
   - React Component Design Pattern: functionalcomponents.md
   - S.O.L.I.D.: solid.md
 
